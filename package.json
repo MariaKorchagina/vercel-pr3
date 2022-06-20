@@ -1,0 +1,53 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "RSS aggregator",
+  "main": "./src/app.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaKorchagina/frontend-project-lvl3.git"
+  },
+  "author": "Maria Korchagina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaKorchagina/frontend-project-lvl3/issues"
+  },
+  "homepage": "https://github.com/MariaKorchagina/frontend-project-lvl3#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@webpack-cli/generators": "^0.1.2",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss-loader": "^6.2.1",
+    "prettier": "^2.6.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "workbox-webpack-plugin": "^6.5.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.4",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "i18next": "^21.6.14",
+    "lodash": "^4.17.21",
+    "on-change": "^4.0.0",
+    "yup": "^0.32.11"
+  }
+}
